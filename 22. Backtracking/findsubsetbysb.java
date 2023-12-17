@@ -1,11 +1,3 @@
-// abc
-// ab
-// ac
-// a 
-// bc
-// b
-// c
-// null
 public class findsubsetbysb {
         public static void fSubset(String str, StringBuilder ans, int i){
             //Base case
@@ -33,3 +25,12 @@ public class findsubsetbysb {
         fSubset(str,ans, 0);
     }
     }
+//Output:-
+// abc
+// ab
+// ac
+// a 
+// bc
+// b 
+// c
+// null

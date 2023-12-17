@@ -20,3 +20,12 @@ public class findsubsetbystr {
         fSubset(str,"", 0);
     }
     }
+//Output:-
+// abc
+// ab
+// ac
+// a 
+// bc
+// b 
+// c
+// null
