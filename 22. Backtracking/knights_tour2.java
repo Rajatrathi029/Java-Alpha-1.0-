@@ -1,4 +1,4 @@
-//Run for n<8 values
+//Run for n<8 values and similar to previous one
 public class knights_tour2 {
     public static boolean issafe(int[][]board,int i, int j){
         return (i>=0 && j>=0 && i<board.length && j<board.length && board[i][j]==-1);
